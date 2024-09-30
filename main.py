@@ -30,6 +30,11 @@ def main():
 
 		screen.fill(BLACK)
 
+		for astr in asteroids:
+			if player.is_collide(astr):
+				print("Game over!")
+				return
+
 		for drw in drawable:
 			drw.draw(screen)
 
