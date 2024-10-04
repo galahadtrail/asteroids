@@ -23,6 +23,7 @@ def main():
 	AsteroidField.containers = updatable
 
 	player = Player(SCREEN_WIDTH / 2, SCREEN_HEIGHT / 2)
+	timer = Player(0,0)
 	asteroidfield = AsteroidField()
 
 
