@@ -40,7 +40,7 @@ def main():
 		for astr in asteroids:
 			for sht in shots:
 				if sht.is_collide(astr):
-					astr.kill()
+					astr.split()
 					sht.kill()
 			
 		for drw in drawable:
